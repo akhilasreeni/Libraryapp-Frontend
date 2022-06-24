@@ -1,0 +1,15 @@
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+.card-title{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.desc{
+    font-family: cursive;
+}
+.author{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifcd ;
+}

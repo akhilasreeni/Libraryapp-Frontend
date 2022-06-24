@@ -1,0 +1,89 @@
+.btn {
+    text-decoration: none;
+	border: none;
+	font-family: inherit;
+	font-size: small;
+    width: 200px;
+    height: 50px;
+	color: darkred;
+	background: none;
+	cursor: pointer;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before,
+.icon-heart:after,
+.icon-star:after,
+.icon-plus:after,
+.icon-file:before {
+	font-family: 'icomoon';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+/* Button 4 */
+.btn-4 {
+    text-decoration: none;
+	border-radius: 50px;
+	border: 2px solid #fff;
+	color: #fff;
+	overflow: hidden;
+}
+
+.btn-4:active {
+	border-color: #f890d0;
+	color: #eea8d3;
+}
+
+.btn-4:hover {
+	background: #f0aacb;
+}
+
+.btn-4:before {
+	position: absolute;
+	height: 100%;
+	font-size: 125%;
+	line-height: 3.5;
+	color: #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-4:active:before {
+	color: #17954c;
+}
+/* Button 4c */
+.btn-4c:before {
+	left: 70%;
+	opacity: 0;
+	top: 0;
+}
+
+.btn-4c:hover:before {
+	left: 80%;
+	opacity: 1;
+}
